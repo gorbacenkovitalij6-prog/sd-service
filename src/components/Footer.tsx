@@ -19,7 +19,7 @@ export function Footer() {
               Мы — ваш надёжный партнёр по покупке и доставке лучших автомобилей из Европы. Премиальный сервис без компромиссов.
             </p>
             <div className="flex items-center gap-4">
-              <a href="https://t.me/ltsAuto" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 hover:border-[#0088cc] hover:bg-[#0088cc]/10 hover:text-[#0088cc] text-white/70 transition-all">
+              <a href="https://t.me/LTSPRigon" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center border border-white/10 hover:border-[#0088cc] hover:bg-[#0088cc]/10 hover:text-[#0088cc] text-white/70 transition-all">
                 <Send className="w-4 h-4 ml-0.5" />
               </a>
             </div>

@@ -194,7 +194,7 @@ export default function CatalogPage() {
                   
                   <div className="mt-auto">
                     <a
-                      href="https://t.me/ltsAuto"
+                      href="https://t.me/LTSPRigon"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full"
