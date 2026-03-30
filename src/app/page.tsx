@@ -441,7 +441,7 @@ export default function Home() {
               <div className="grid grid-cols-1 md:grid-cols-2 h-full gap-6">
                 <div className="relative h-64 md:h-full overflow-hidden order-2 md:order-1">
                   <img
-                    src="https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src="/121212.jpg"
                     alt="Автомобиль премиум класса"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
                   />
