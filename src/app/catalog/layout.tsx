@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Каталог автомобилей из Европы - ЛТС",
+  title: "Каталог автомобилей из Европы - СД-СЕРВИС",
   description: "Каталог автомобилей из Европы с доставкой в РФ. Большой выбор Mercedes-Benz, BMW, Audi, Volkswagen и других премиум марок. Экономия до 30%.",
   openGraph: {
-    title: "Каталог автомобилей из Европы - ЛТС",
+    title: "Каталог автомобилей из Европы - СД-СЕРВИС",
     description: "Каталог автомобилей из Европы с доставкой в РФ. Большой выбор Mercedes-Benz, BMW, Audi, Volkswagen и других премиум марок. Экономия до 30%.",
   },
 };

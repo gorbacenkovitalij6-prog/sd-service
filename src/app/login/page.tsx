@@ -44,7 +44,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex flex-col items-center">
-            <div className="text-5xl font-bold text-[#0A2540] leading-none">ЛТС</div>
+            <div className="text-5xl font-bold text-[#0A2540] leading-none">СД-СЕРВИС</div>
             <div className="text-xs font-semibold text-[#0A2540] tracking-[0.15em] uppercase mt-1">
               Авто из Европы
             </div>
@@ -94,7 +94,7 @@ export default function LoginPage() {
             <Button
               type="submit"
               disabled={loading}
-              className="w-full h-12 bg-[#0A7ABF] hover:bg-[#095A8F] text-white text-base font-medium"
+              className="w-full h-12 bg-[#0A7ABF] hover:bg-[#095A8F] text-foreground text-base font-medium"
             >
               {loading ? 'Вход...' : 'Войти'}
             </Button>
@@ -108,8 +108,8 @@ export default function LoginPage() {
         </div>
 
         {/* Info */}
-        <div className="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
-          <p className="text-sm text-blue-800">
+        <div className="mt-6 bg-blue-50 border border-amber-500 rounded-lg p-4">
+          <p className="text-sm text-amber-500">
             <strong>📝 Для первого входа:</strong> Создайте пользователя в Supabase → Authentication → Users
           </p>
         </div>

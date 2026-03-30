@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     // Формируем сообщение
-    let message = `🚗 *Новая заявка с сайта ЛТС*\n\n`;
+    let message = `🚗 *Новая заявка с сайта СД-СЕРВИС*\n\n`;
     message += `👤 *Имя:* ${name}\n`;
     message += `📱 *Телефон:* ${phone}\n`;
 

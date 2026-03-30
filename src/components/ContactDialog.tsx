@@ -180,7 +180,7 @@ export function ContactDialog({ open, onOpenChange }: ContactDialogProps) {
           {/* Submit Button */}
           <Button
             type="submit"
-            className="w-full h-12 bg-[#0A7ABF] hover:bg-[#095A8F] text-white text-base font-medium"
+            className="w-full h-12 bg-[#0A7ABF] hover:bg-[#095A8F] text-foreground text-base font-medium"
           >
             Отправить
           </Button>

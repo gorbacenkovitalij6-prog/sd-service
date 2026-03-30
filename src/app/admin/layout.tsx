@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Админ панель - ЛТС",
-  description: "Панель управления сайтом ЛТС. Добавление автомобилей и управление контентом.",
+  title: "Админ панель - СД-СЕРВИС",
+  description: "Панель управления сайтом СД-СЕРВИС. Добавление автомобилей и управление контентом.",
   robots: {
     index: false,
     follow: false,

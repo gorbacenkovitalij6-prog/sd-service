@@ -359,20 +359,20 @@ export default function AdminPage() {
         <div className="max-w-screen-2xl mx-auto px-8 py-6 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-2">
             <div className="flex flex-col items-start">
-              <div className="text-3xl font-bold text-[#0A2540] leading-none">ЛТС</div>
+              <div className="text-3xl font-bold text-[#0A2540] leading-none">СД-СЕРВИС</div>
               <div className="text-[9px] font-semibold text-[#0A2540] tracking-[0.15em] uppercase mt-0.5">
                 Авто из Европы
               </div>
             </div>
           </Link>
           <nav className="flex items-center gap-8 text-[#0A2540]">
-            <Link href="/" className="hover:text-blue-600 transition-colors font-medium">
+            <Link href="/" className="hover:text-amber-500 transition-colors font-medium">
               Главная
             </Link>
-            <Link href="/catalog" className="hover:text-blue-600 transition-colors font-medium">
+            <Link href="/catalog" className="hover:text-amber-500 transition-colors font-medium">
               Каталог
             </Link>
-            <Link href="/admin" className="text-blue-600 font-medium">
+            <Link href="/admin" className="text-amber-500 font-medium">
               Админ
             </Link>
             <Button
@@ -597,7 +597,7 @@ export default function AdminPage() {
                       <button
                         type="button"
                         onClick={() => removeImage(index)}
-                        className="absolute top-2 right-2 bg-red-600 text-white p-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+                        className="absolute top-2 right-2 bg-red-600 text-foreground p-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
                       >
                         <X className="w-4 h-4" />
                       </button>
@@ -817,7 +817,7 @@ export default function AdminPage() {
                           href={video.video_url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-xs text-blue-600 hover:underline break-all"
+                          className="text-xs text-amber-500 hover:underline break-all"
                         >
                           {video.video_url}
                         </a>

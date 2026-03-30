@@ -18,36 +18,36 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ЛТС - Авто из Европы с доставкой по РФ",
+  title: "СД-СЕРВИС - Авто из Европы с доставкой по РФ",
   description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 11 лет на рынке, 1000+ довольных клиентов. Экономия до 30%.",
-  keywords: "авто из европы, автомобили из европы, пригон авто, растаможка авто, ЛТС",
-  authors: [{ name: "ЛТС" }],
+  keywords: "авто из европы, автомобили из европы, пригон авто, растаможка авто, СД-СЕРВИС",
+  authors: [{ name: "СД-СЕРВИС" }],
   icons: {
-    icon: "/logo.jpg",
-    shortcut: "/logo.jpg",
-    apple: "/logo.jpg",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
   openGraph: {
-    title: "ЛТС - Авто из Европы с доставкой по РФ",
+    title: "СД-СЕРВИС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 11 лет на рынке, 1000+ довольных клиентов. Экономия до 30%.",
     url: "https://lts-prigon.ru",
-    siteName: "ЛТС - Авто из Европы",
+    siteName: "СД-СЕРВИС - Авто из Европы",
     type: "website",
     locale: "ru_RU",
     images: [
       {
-        url: "https://lts-prigon.ru/lts_office_preview.jpg",
+        url: "https://lts-prigon.ru/jpg_2654.jpg",
         width: 1200,
         height: 630,
-        alt: "ЛТС - Автомобили из Европы",
+        alt: "СД-СЕРВИС - Автомобили из Европы",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ЛТС - Авто из Европы с доставкой по РФ",
+    title: "СД-СЕРВИС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 11 лет на рынке, 1000+ довольных клиентов.",
-    images: ["https://lts-prigon.ru/lts_office_preview.jpg"],
+    images: ["https://lts-prigon.ru/jpg_2654.jpg"],
   },
   robots: {
     index: true,
