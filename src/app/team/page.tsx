@@ -14,12 +14,12 @@ export default function TeamPage() {
       image: 'https://i.ibb.co/jvZbqk5n/photo-2026-02-13-15-51-11.jpg'
     },
     {
-      name: 'Виктор Васильевич',
-      image: 'https://i.ibb.co/WvzNYTqS/photo-2026-02-13-15-51-15.jpg'
+      name: 'Владимир Валерьевич',
+      image: 'https://i.ibb.co/JjVwRGBc/photo-2026-02-13-15-51-48.jpg'
     },
     {
-      name: 'Роман Сергеевич',
-      image: 'https://i.ibb.co/4Zhk2DwD/photo-2026-02-13-15-51-19.jpg'
+      name: 'Михаил Сергеевич',
+      image: 'https://i.ibb.co/XfJRxK9x/photo-2026-02-13-15-51-51.jpg'
     },
     {
       name: 'Михаил Андреевич',
@@ -50,12 +50,12 @@ export default function TeamPage() {
       image: 'https://i.ibb.co/FkDmPZ27/photo-2026-02-13-15-51-44.jpg'
     },
     {
-      name: 'Владимир Валерьевич',
-      image: 'https://i.ibb.co/JjVwRGBc/photo-2026-02-13-15-51-48.jpg'
+      name: 'Виктор Васильевич',
+      image: 'https://i.ibb.co/WvzNYTqS/photo-2026-02-13-15-51-15.jpg'
     },
     {
-      name: 'Михаил Сергеевич',
-      image: 'https://i.ibb.co/XfJRxK9x/photo-2026-02-13-15-51-51.jpg'
+      name: 'Роман Сергеевич',
+      image: 'https://i.ibb.co/4Zhk2DwD/photo-2026-02-13-15-51-19.jpg'
     }
   ];
 
