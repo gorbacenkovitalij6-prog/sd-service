@@ -685,58 +685,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Clients Section */}
-      <section className="w-full py-16 px-6 bg-background relative overflow-hidden">
-        {/* Decorative background elements */}
-        <div className="absolute top-1/2 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-[100px] -translate-y-1/2" />
-        <div className="absolute top-1/2 right-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-[100px] -translate-y-1/2" />
-        
-        <div className="w-full max-w-screen-2xl mx-auto flex flex-col md:flex-row items-center justify-between gap-12 relative z-10">
-          {/* Left Side - Text */}
-          <div className="flex-1 text-center md:text-left">
-            <h2 className="text-3xl lg:text-5xl font-bold text-foreground leading-tight mb-4">
-              КЛИЕНТЫ, КОТОРЫЕ<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-amber-500">УЖЕ ПОЛУЧИЛИ АВТО</span>
-            </h2>
-            <p className="text-muted-foreground text-lg">
-              Более 1 000 человек уже доверили нам растаможку и доставку своих авто.
-            </p>
-          </div>
-
-          {/* Right Side - Client Avatars */}
-          <div className="flex-1 flex flex-col flex-wrap md:flex-nowrap items-center md:items-end gap-6">
-            <div className="flex items-center justify-center -space-x-4 hover:space-x-2 transition-all duration-500 cursor-pointer group">
-              {/* Client photos with glow */}
-              {[
-                "https://ext.same-assets.com/3655081281/309832735.jpeg",
-                "https://ext.same-assets.com/3655081281/3937889675.jpeg",
-                "https://ext.same-assets.com/3655081281/331457206.jpeg",
-                "https://ext.same-assets.com/3655081281/2574035094.jpeg",
-                "https://ext.same-assets.com/3655081281/911256757.jpeg",
-                "https://ext.same-assets.com/3655081281/3422714086.jpeg",
-                "https://ext.same-assets.com/3655081281/1140135373.jpeg"
-              ].map((src, idx) => (
-                <div key={idx} className="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-background shadow-sm hover:shadow-md bg-card flex items-center justify-center overflow-hidden transition-all duration-300 hover:scale-110 hover:z-10 relative">
-                  <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent opacity-0 hover:opacity-100 transition-opacity" />
-                  <img
-                    src={src}
-                    alt="Клиент"
-                    className="w-full h-full object-cover"
-                    onError={(e) => { e.currentTarget.style.display = 'none'; }}
-                  />
-                </div>
-              ))}
-
-              {/* Counter Badge */}
-              <div className="w-16 h-16 md:w-20 md:h-20 rounded-full border-2 border-background bg-gradient-to-br from-primary to-amber-500 flex flex-col items-center justify-center shadow-md z-10 transition-transform hover:scale-110">
-                <div className="text-foreground font-black md:text-lg text-sm leading-none">1000+</div>
-                <div className="text-muted-foreground text-[10px] uppercase tracking-wider font-semibold mt-0.5">чел</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Dynamic Sections */}
       <ClientReviewsSection />
       <FAQSection />
