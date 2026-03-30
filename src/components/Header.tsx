@@ -58,11 +58,11 @@ export function Header() {
             <MessageSquare className="w-4 h-4 text-muted-foreground group-hover:text-[#0088cc] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
           </a>
           <a
-            href="tel:+79393223704"
+            href="tel:+79383591091"
             className="hidden lg:flex items-center gap-2 bg-gradient-to-r from-primary to-amber-500 hover:from-amber-500 hover:to-primary text-foreground px-5 py-2.5 rounded-full font-medium shadow-md transition-all duration-300 hover:shadow-md transform hover:-translate-y-0.5 whitespace-nowrap"
           >
             <MessageCircle className="w-4 h-4" />
-            <span className="text-sm tracking-wide">+7(939)322-37-04</span>
+            <span className="text-sm tracking-wide">+7(938)359-10-91</span>
           </a>
         </div>
       </div>

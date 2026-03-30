@@ -48,13 +48,13 @@ export function Footer() {
             <h4 className="text-foreground font-bold mb-6 tracking-wide text-sm uppercase">Контакты</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+79393223704" className="flex items-start gap-3 group">
+                <a href="tel:+79383591091" className="flex items-start gap-3 group">
                   <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200/60 group-hover:border-primary/50 transition-colors shrink-0">
                     <MessageCircle className="w-3.5 h-3.5 text-primary" />
                   </div>
                   <div>
                     <div className="text-muted-foreground text-xs mb-0.5">Телефон (8-20 МСК)</div>
-                    <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors">+7(939)322-37-04</div>
+                    <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors">+7(938)359-10-91</div>
                   </div>
                 </a>
               </li>
