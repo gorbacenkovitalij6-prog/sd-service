@@ -49,7 +49,7 @@ export function Header() {
             <Send className="w-4 h-4 text-muted-foreground group-hover:text-[#0088cc] group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all" />
           </a>
           <a
-            href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY"
+            href="https://max.ru/u/f9LHodD0cOJ3xGhjX3_bzt3hbn2mMkcuVqd-AqaGN00IyQj8UqGzpUvfg64"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full bg-slate-50 hover:bg-slate-50 border border-slate-200/60 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:border-primary/50 group"
