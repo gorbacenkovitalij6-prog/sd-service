@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "СД-СЕРВИС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 11 лет на рынке, 1000+ довольных клиентов. Экономия до 30%.",
-    url: "https://lts-prigon.ru",
+    url: "https://sdservice-prigon.ru",
     siteName: "СД-СЕРВИС - Авто из Европы",
     type: "website",
     locale: "ru_RU",
     images: [
       {
-        url: "https://lts-prigon.ru/jpg_2654.jpg",
+        url: "https://sdservice-prigon.ru/jpg_2654.jpg",
         width: 1200,
         height: 630,
         alt: "СД-СЕРВИС - Автомобили из Европы",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "СД-СЕРВИС - Авто из Европы с доставкой по РФ",
     description: "Автомобили из Европы под ключ. Подбор, доставка, растаможка. Более 11 лет на рынке, 1000+ довольных клиентов.",
-    images: ["https://lts-prigon.ru/jpg_2654.jpg"],
+    images: ["https://sdservice-prigon.ru/jpg_2654.jpg"],
   },
   robots: {
     index: true,
