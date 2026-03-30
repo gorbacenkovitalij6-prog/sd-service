@@ -647,7 +647,7 @@ export default function Home() {
                       <div className="pt-4 border-t border-slate-200/60 flex items-center justify-between mt-auto">
                         <div>
                           <div className="text-xs text-muted-foreground mb-1">Итоговая цена</div>
-                          <div className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
+                          <div className="text-2xl font-bold text-foreground">
                             {car.price.toLocaleString()} ₽
                           </div>
                         </div>
@@ -1153,7 +1153,7 @@ function ClientReviewsSection() {
                     ))}
                   </div>
                 </div>
-                <div className="text-2xl lg:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">
+                <div className="text-2xl lg:text-3xl font-black text-foreground">
                   {review.rating.toFixed(1)}
                 </div>
               </div>
