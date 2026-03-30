@@ -426,7 +426,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-64 md:h-full overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/4489728/pexels-photo-4489728.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src="/delivery_features.jpg"
                     alt="Доставка"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
                   />
