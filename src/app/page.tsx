@@ -369,7 +369,7 @@ export default function Home() {
                 </div>
                 <div className="relative h-64 md:h-full overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/5668774/pexels-photo-5668774.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src="/russian_businessman.png"
                     alt="Безопасность"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80"
                   />
@@ -528,7 +528,7 @@ export default function Home() {
                     </a>
                   </div>
                   <p className="text-muted-foreground text-sm leading-relaxed text-center sm:text-left">
-                    Свежие поступления и онлайн-консультации <strong>с 8 до 22 МСК</strong> в наших мессенджерах!
+                    Свежие поступления и онлайн-консультации <strong>с 8 до 19 МСК</strong> в наших мессенджерах!
                   </p>
                 </div>
               </div>
