@@ -40,7 +40,7 @@ export function Header() {
         {/* Contact Buttons */}
         <div className="flex items-center gap-4">
           <a
-            href="https://t.me/СД-СЕРВИСPRigon"
+            href="https://t.me/Sdservice24"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 rounded-full bg-slate-50 hover:bg-slate-50 border border-slate-200/60 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:border-primary/50 group"

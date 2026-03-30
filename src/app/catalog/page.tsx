@@ -194,7 +194,7 @@ export default function CatalogPage() {
                   
                   <div className="mt-auto flex flex-col gap-2">
                     <a
-                      href="https://t.me/СД-СЕРВИСPRigon"
+                      href="https://t.me/Sdservice24"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full"

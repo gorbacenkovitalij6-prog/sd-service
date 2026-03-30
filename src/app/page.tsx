@@ -511,7 +511,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-5 p-5 rounded-2xl bg-gradient-to-r from-[#0088cc]/20 to-transparent border border-[#0088cc]/30 backdrop-blur-md">
                   <div className="flex gap-3 shrink-0">
                     <a
-                      href="https://t.me/СД-СЕРВИСPRigon"
+                      href="https://t.me/Sdservice24"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-14 h-14 bg-[#0088cc] rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-[0_0_20px_rgba(0,136,204,0.5)]"
