@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Send, MessageCircle, Clock, MessageSquare } from 'lucide-react';
+import { Send, MessageCircle, Clock, MessageSquare, MapPin } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -44,7 +44,7 @@ export function Footer() {
           </div>
 
           {/* Contacts Column */}
-          <div>
+          <div className="lg:col-span-2">
             <h4 className="text-foreground font-bold mb-6 tracking-wide text-sm uppercase">Контакты</h4>
             <ul className="space-y-4">
               <li>
@@ -66,6 +66,17 @@ export function Footer() {
                 <div>
                   <div className="text-muted-foreground text-xs mb-0.5">Режим работы</div>
                   <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors">Ежедневно 8:00 - 19:00</div>
+                </div>
+              </div>
+            </li>
+            <li>
+                <div className="flex items-start gap-3 group">
+                <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200/60 group-hover:border-primary/50 transition-colors shrink-0">
+                  <MapPin className="w-3.5 h-3.5 text-primary" />
+                </div>
+                <div>
+                  <div className="text-muted-foreground text-xs mb-0.5">Адрес</div>
+                  <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors">214012, Смоленская область, г Смоленск, Ново-Московская ул, д. 2/8, офис 305</div>
                 </div>
               </div>
             </li>
