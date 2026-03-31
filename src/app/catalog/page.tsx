@@ -204,7 +204,7 @@ export default function CatalogPage() {
                       </Button>
                     </a>
                     <a
-                      href="https://max.ru/u/f9LHodD0cOLd_wpVLKdoX-6cYVQPnzVsKXfd4Yyv1T741m3KQNI63EzYpvY"
+                      href="https://max.ru/u/f9LHodD0cOJ3xGhjX3_bzt3hbn2mMkcuVqd-AqaGN00IyQj8UqGzpUvfg64"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="block w-full"
