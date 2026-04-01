@@ -157,7 +157,7 @@ RewriteRule ^$ /index.html [L]
 Измените форму для отправки на email:
 
 ```html
-<form action="https://formsubmit.co/ooo.oreongroups@mail.ru" method="POST">
+<form action="https://formsubmit.co/sd-service@rambler.ru" method="POST">
   <input type="text" name="name" required>
   <input type="email" name="email" required>
   <input type="tel" name="phone" required>

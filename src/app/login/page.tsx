@@ -71,7 +71,7 @@ export default function LoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="admin@example.com"
+                placeholder="sd-service@rambler.ru"
                 required
                 className="h-12"
               />
