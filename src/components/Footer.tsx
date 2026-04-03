@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Send, MessageCircle, Clock, MessageSquare, MapPin } from 'lucide-react';
+import { Send, MessageCircle, Clock, MessageSquare, MapPin, Mail } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -79,6 +79,17 @@ export function Footer() {
                   <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors">214012, Смоленская область, г Смоленск, Ново-Московская ул, д. 2/8, офис 305</div>
                 </div>
               </div>
+            </li>
+            <li>
+              <a href="mailto:sd-service@rambler.ru" className="flex items-start gap-3 group">
+                <div className="w-8 h-8 rounded-full bg-slate-50 flex items-center justify-center border border-slate-200/60 group-hover:border-primary/50 transition-colors shrink-0">
+                  <Mail className="w-3.5 h-3.5 text-primary" />
+                </div>
+                <div>
+                  <div className="text-muted-foreground text-xs mb-0.5">Email</div>
+                  <div className="text-muted-foreground group-hover:text-foreground text-sm font-medium transition-colors">sd-service@rambler.ru</div>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
